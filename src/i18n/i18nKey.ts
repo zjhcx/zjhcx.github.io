@@ -1,0 +1,80 @@
+enum I18nKey {
+	home = "home",
+	about = "about",
+	archive = "archive",
+	links = "links",
+	linksDescription = "linksDescription",
+	other = "other",
+	otherDescription = "otherDescription",
+	search = "search",
+	searchPanel = "searchPanel",
+	searchDevTitle = "searchDevTitle",
+	searchDevDescription = "searchDevDescription",
+	searchDevTestTitle = "searchDevTestTitle",
+	searchDevTestDescription = "searchDevTestDescription",
+	language = "language",
+
+	bangumi = "bangumi",
+	bangumiDrama = "bangumiDrama",
+	bangumiDescription = "bangumiDescription",
+	bangumiDramaDescription = "bangumiDramaDescription",
+	bangumiDisabled = "bangumiDisabled",
+	bangumiLoadFailed = "bangumiLoadFailed",
+	bangumiEmpty = "bangumiEmpty",
+	bangumiFollow = "bangumiFollow",
+	bangumiPlay = "bangumiPlay",
+	bangumiOtherDescription = "bangumiOtherDescription",
+	bangumiDramaOtherDescription = "bangumiDramaOtherDescription",
+
+	moments = "moments",
+	momentsDescription = "momentsDescription",
+	momentsDisabled = "momentsDisabled",
+	momentsNoSources = "momentsNoSources",
+	momentsLoadFailed = "momentsLoadFailed",
+	momentsEmpty = "momentsEmpty",
+	momentsUnknownTime = "momentsUnknownTime",
+	momentsUntitled = "momentsUntitled",
+	momentsRequestFailed = "momentsRequestFailed",
+	momentsOtherDescription = "momentsOtherDescription",
+
+	friendGithubDescription = "friendGithubDescription",
+	friendOpenAIDescription = "friendOpenAIDescription",
+	friendBilibiliDescription = "friendBilibiliDescription",
+	friendXDescription = "friendXDescription",
+	friendDiscordDescription = "friendDiscordDescription",
+	friendCloudflareDescription = "friendCloudflareDescription",
+
+	tags = "tags",
+	categories = "categories",
+	recentPosts = "recentPosts",
+
+	comments = "comments",
+
+	untitled = "untitled",
+	uncategorized = "uncategorized",
+	noTags = "noTags",
+
+	wordCount = "wordCount",
+	wordsCount = "wordsCount",
+	minuteCount = "minuteCount",
+	minutesCount = "minutesCount",
+	postCount = "postCount",
+	postsCount = "postsCount",
+
+	themeColor = "themeColor",
+
+	lightMode = "lightMode",
+	darkMode = "darkMode",
+	systemMode = "systemMode",
+
+	more = "more",
+
+	author = "author",
+	publishedAt = "publishedAt",
+	license = "license",
+	allRightsReserved = "allRightsReserved",
+	poweredBy = "poweredBy",
+	siteSource = "siteSource",
+}
+
+export default I18nKey;

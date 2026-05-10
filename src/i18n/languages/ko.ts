@@ -1,0 +1,85 @@
+import Key from "../i18nKey";
+import type { Translation } from "../translation";
+
+export const ko: Translation = {
+	[Key.home]: "홈",
+	[Key.about]: "소개",
+	[Key.archive]: "아카이브",
+	[Key.links]: "링크",
+	[Key.linksDescription]: "친구 블로그와 추천 사이트",
+	[Key.other]: "기타",
+	[Key.otherDescription]: "더 많은 페이지와 사이트 기능",
+	[Key.search]: "검색",
+	[Key.searchPanel]: "검색 패널",
+	[Key.searchDevTitle]: "가짜 검색 결과입니다",
+	[Key.searchDevDescription]:
+		"<mark>개발</mark> 환경에서는 검색이 동작하지 않습니다.",
+	[Key.searchDevTestTitle]: "검색을 테스트하려면",
+	[Key.searchDevTestDescription]:
+		"<mark>npm build && npm preview</mark>를 실행해 보세요.",
+	[Key.language]: "언어",
+
+	[Key.bangumi]: "방구미",
+	[Key.bangumiDrama]: "드라마",
+	[Key.bangumiDescription]: "Bilibili에서 팔로우한 애니메이션",
+	[Key.bangumiDramaDescription]: "Bilibili에서 팔로우한 드라마",
+	[Key.bangumiDisabled]: "방구미 페이지가 비활성화되었습니다.",
+	[Key.bangumiLoadFailed]: "Bilibili 방구미 데이터를 불러오지 못했습니다: ",
+	[Key.bangumiEmpty]: "방구미 데이터가 없습니다.",
+	[Key.bangumiFollow]: "팔로우",
+	[Key.bangumiPlay]: "재생",
+	[Key.bangumiOtherDescription]: "Bilibili 방구미 목록 보기",
+	[Key.bangumiDramaOtherDescription]: "Bilibili 드라마 목록 보기",
+
+	[Key.moments]: "모멘트",
+	[Key.momentsDescription]: "RSS 소스에서 가져온 친구들의 최신 소식",
+	[Key.momentsDisabled]: "모멘트 페이지가 비활성화되었습니다.",
+	[Key.momentsNoSources]:
+		"RSS 소스가 없습니다. src/config.ts의 MomentsConfig.sources에서 설정하세요.",
+	[Key.momentsLoadFailed]: "불러오기 실패: ",
+	[Key.momentsEmpty]: "모멘트가 없습니다.",
+	[Key.momentsUnknownTime]: "알 수 없는 시간",
+	[Key.momentsUntitled]: "제목 없는 소식",
+	[Key.momentsRequestFailed]: "RSS 요청 실패",
+	[Key.momentsOtherDescription]: "RSS로 모은 친구들의 최신 소식 보기",
+
+	[Key.friendGithubDescription]:
+		"오픈 소스 및 비공개 소프트웨어 프로젝트 호스팅 플랫폼",
+	[Key.friendOpenAIDescription]: "AI 연구 및 제품 플랫폼",
+	[Key.friendBilibiliDescription]: "동영상 커뮤니티와 창작 플랫폼",
+	[Key.friendXDescription]: "소셜 네트워킹 플랫폼",
+	[Key.friendDiscordDescription]: "인기 있는 채팅 및 커뮤니티 플랫폼",
+	[Key.friendCloudflareDescription]: "웹 성능 및 보안 플랫폼",
+
+	[Key.tags]: "태그",
+	[Key.categories]: "카테고리",
+	[Key.recentPosts]: "최근 게시물",
+
+	[Key.comments]: "댓글",
+
+	[Key.untitled]: "제목 없음",
+	[Key.uncategorized]: "분류되지 않음",
+	[Key.noTags]: "태그 없음",
+
+	[Key.wordCount]: "단어",
+	[Key.wordsCount]: "단어",
+	[Key.minuteCount]: "분",
+	[Key.minutesCount]: "분",
+	[Key.postCount]: "게시물",
+	[Key.postsCount]: "게시물",
+
+	[Key.themeColor]: "테마 색상",
+
+	[Key.lightMode]: "밝은 모드",
+	[Key.darkMode]: "어두운 모드",
+	[Key.systemMode]: "시스템 모드",
+
+	[Key.more]: "더 보기",
+
+	[Key.author]: "저자",
+	[Key.publishedAt]: "게시일",
+	[Key.license]: "라이선스",
+	[Key.allRightsReserved]: "모든 권리 보유.",
+	[Key.poweredBy]: "Powered by",
+	[Key.siteSource]: "사이트 소스는",
+};

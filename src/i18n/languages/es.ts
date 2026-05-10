@@ -1,0 +1,88 @@
+import Key from "../i18nKey";
+import type { Translation } from "../translation";
+
+export const es: Translation = {
+	[Key.home]: "Inicio",
+	[Key.about]: "Sobre mí",
+	[Key.archive]: "Archivo",
+	[Key.links]: "Enlaces",
+	[Key.linksDescription]: "Blogs de amigos y sitios recomendados",
+	[Key.other]: "Otros",
+	[Key.otherDescription]: "Más páginas y funciones del sitio",
+	[Key.search]: "Buscar",
+	[Key.searchPanel]: "Panel de búsqueda",
+	[Key.searchDevTitle]: "Este es un resultado de búsqueda falso",
+	[Key.searchDevDescription]:
+		"Porque la búsqueda no funciona en el entorno de <mark>desarrollo</mark>.",
+	[Key.searchDevTestTitle]: "Si quieres probar la búsqueda",
+	[Key.searchDevTestDescription]:
+		"Ejecuta <mark>npm build && npm preview</mark> en su lugar.",
+	[Key.language]: "Idioma",
+
+	[Key.bangumi]: "Bangumi",
+	[Key.bangumiDrama]: "Series",
+	[Key.bangumiDescription]: "Anime seguido en Bilibili",
+	[Key.bangumiDramaDescription]: "Series seguidas en Bilibili",
+	[Key.bangumiDisabled]: "La página de bangumi está desactivada.",
+	[Key.bangumiLoadFailed]: "No se pudieron cargar los datos de Bilibili: ",
+	[Key.bangumiEmpty]: "Aún no hay datos de bangumi.",
+	[Key.bangumiFollow]: "siguiendo",
+	[Key.bangumiPlay]: "reproducciones",
+	[Key.bangumiOtherDescription]: "Ver lista de bangumi en Bilibili",
+	[Key.bangumiDramaOtherDescription]: "Ver lista de series en Bilibili",
+
+	[Key.moments]: "Momentos",
+	[Key.momentsDescription]: "Últimas actualizaciones desde RSS de amigos",
+	[Key.momentsDisabled]: "La página de momentos está desactivada.",
+	[Key.momentsNoSources]:
+		"No hay fuentes RSS. Configura MomentsConfig.sources en src/config.ts.",
+	[Key.momentsLoadFailed]: "error al cargar: ",
+	[Key.momentsEmpty]: "Aún no hay momentos.",
+	[Key.momentsUnknownTime]: "Hora desconocida",
+	[Key.momentsUntitled]: "Actualización sin título",
+	[Key.momentsRequestFailed]: "Falló la solicitud RSS",
+	[Key.momentsOtherDescription]:
+		"Ver las últimas actualizaciones de amigos desde RSS",
+
+	[Key.friendGithubDescription]:
+		"Plataforma de alojamiento para proyectos de software abiertos y privados",
+	[Key.friendOpenAIDescription]:
+		"Plataforma de investigación y productos de IA",
+	[Key.friendBilibiliDescription]: "Comunidad de video y plataforma creativa",
+	[Key.friendXDescription]: "Plataforma social",
+	[Key.friendDiscordDescription]: "Plataforma popular de chat y comunidades",
+	[Key.friendCloudflareDescription]:
+		"Plataforma de rendimiento y seguridad web",
+
+	[Key.tags]: "Etiquetas",
+	[Key.categories]: "Categorías",
+	[Key.recentPosts]: "Publicaciones recientes",
+
+	[Key.comments]: "Comentarios",
+
+	[Key.untitled]: "Sin título",
+	[Key.uncategorized]: "Sin categoría",
+	[Key.noTags]: "Sin etiquetas",
+
+	[Key.wordCount]: "palabra",
+	[Key.wordsCount]: "palabras",
+	[Key.minuteCount]: "minuto",
+	[Key.minutesCount]: "minutos",
+	[Key.postCount]: "publicación",
+	[Key.postsCount]: "publicaciones",
+
+	[Key.themeColor]: "Color del tema",
+
+	[Key.lightMode]: "Claro",
+	[Key.darkMode]: "Oscuro",
+	[Key.systemMode]: "Sistema",
+
+	[Key.more]: "Más",
+
+	[Key.author]: "Autor",
+	[Key.publishedAt]: "Publicado el",
+	[Key.license]: "Licencia",
+	[Key.allRightsReserved]: "Todos los derechos reservados.",
+	[Key.poweredBy]: "Desarrollado con",
+	[Key.siteSource]: "Código fuente disponible en",
+};

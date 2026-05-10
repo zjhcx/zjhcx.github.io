@@ -1,0 +1,84 @@
+import Key from "../i18nKey";
+import type { Translation } from "../translation";
+
+export const th: Translation = {
+	[Key.home]: "หน้าแรก",
+	[Key.about]: "เกี่ยวกับ",
+	[Key.archive]: "คลัง",
+	[Key.links]: "ลิงก์",
+	[Key.linksDescription]: "บล็อกของเพื่อนและเว็บไซต์แนะนำ",
+	[Key.other]: "อื่น ๆ",
+	[Key.otherDescription]: "หน้าและฟีเจอร์อื่น ๆ ของเว็บไซต์",
+	[Key.search]: "ค้นหา",
+	[Key.searchPanel]: "แผงค้นหา",
+	[Key.searchDevTitle]: "นี่คือผลการค้นหาจำลอง",
+	[Key.searchDevDescription]:
+		"เพราะการค้นหาไม่ทำงานในสภาพแวดล้อม <mark>dev</mark>",
+	[Key.searchDevTestTitle]: "หากต้องการทดสอบการค้นหา",
+	[Key.searchDevTestDescription]:
+		"ให้รัน <mark>npm build && npm preview</mark> แทน",
+	[Key.language]: "ภาษา",
+
+	[Key.bangumi]: "Bangumi",
+	[Key.bangumiDrama]: "ซีรีส์",
+	[Key.bangumiDescription]: "อนิเมะที่ติดตามบน Bilibili",
+	[Key.bangumiDramaDescription]: "ซีรีส์ที่ติดตามบน Bilibili",
+	[Key.bangumiDisabled]: "ปิดหน้า Bangumi แล้ว",
+	[Key.bangumiLoadFailed]: "โหลดข้อมูล Bilibili Bangumi ไม่สำเร็จ: ",
+	[Key.bangumiEmpty]: "ยังไม่มีข้อมูล Bangumi",
+	[Key.bangumiFollow]: "ติดตาม",
+	[Key.bangumiPlay]: "เล่น",
+	[Key.bangumiOtherDescription]: "ดูรายการ Bangumi บน Bilibili",
+	[Key.bangumiDramaOtherDescription]: "ดูรายการซีรีส์บน Bilibili",
+
+	[Key.moments]: "โมเมนต์",
+	[Key.momentsDescription]: "อัปเดตล่าสุดจาก RSS ของเพื่อน",
+	[Key.momentsDisabled]: "ปิดหน้าโมเมนต์แล้ว",
+	[Key.momentsNoSources]:
+		"ยังไม่มีแหล่ง RSS โปรดตั้งค่า MomentsConfig.sources ใน src/config.ts",
+	[Key.momentsLoadFailed]: "โหลดไม่สำเร็จ: ",
+	[Key.momentsEmpty]: "ยังไม่มีโมเมนต์",
+	[Key.momentsUnknownTime]: "ไม่ทราบเวลา",
+	[Key.momentsUntitled]: "อัปเดตไม่มีชื่อ",
+	[Key.momentsRequestFailed]: "คำขอ RSS ล้มเหลว",
+	[Key.momentsOtherDescription]: "ดูอัปเดตล่าสุดของเพื่อนจาก RSS",
+
+	[Key.friendGithubDescription]: "แพลตฟอร์มโฮสต์โปรเจกต์ซอฟต์แวร์โอเพนซอร์สและส่วนตัว",
+	[Key.friendOpenAIDescription]: "แพลตฟอร์มวิจัยและผลิตภัณฑ์ AI",
+	[Key.friendBilibiliDescription]: "ชุมชนวิดีโอและแพลตฟอร์มสร้างสรรค์",
+	[Key.friendXDescription]: "แพลตฟอร์มโซเชียล",
+	[Key.friendDiscordDescription]: "แพลตฟอร์มแชตและชุมชนยอดนิยม",
+	[Key.friendCloudflareDescription]: "แพลตฟอร์มประสิทธิภาพและความปลอดภัยเว็บ",
+
+	[Key.tags]: "ป้ายกำกับ",
+	[Key.categories]: "หมวดหมู่",
+	[Key.recentPosts]: "โพสต์ล่าสุด",
+
+	[Key.comments]: "ความคิดเห็น",
+
+	[Key.untitled]: "ไม่ได้ตั้งชื่อ",
+	[Key.uncategorized]: "ไม่ได้จัดหมวดหมู่",
+	[Key.noTags]: "ไม่มีป้ายกำกับ",
+
+	[Key.wordCount]: "คำ",
+	[Key.wordsCount]: "คำ",
+	[Key.minuteCount]: "นาที",
+	[Key.minutesCount]: "นาที",
+	[Key.postCount]: "โพสต์",
+	[Key.postsCount]: "โพสต์",
+
+	[Key.themeColor]: "สีของธีม",
+
+	[Key.lightMode]: "สว่าง",
+	[Key.darkMode]: "มืด",
+	[Key.systemMode]: "ตามระบบ",
+
+	[Key.more]: "ดูเพิ่ม",
+
+	[Key.author]: "ผู้เขียน",
+	[Key.publishedAt]: "เผยแพร่เมื่อ",
+	[Key.license]: "สัญญาอนุญาต",
+	[Key.allRightsReserved]: "สงวนลิขสิทธิ์",
+	[Key.poweredBy]: "ขับเคลื่อนโดย",
+	[Key.siteSource]: "ซอร์สของเว็บไซต์อยู่ที่",
+};
