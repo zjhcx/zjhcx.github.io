@@ -29,10 +29,7 @@ const site =
 	(process.env.GITHUB_ACTIONS === "true"
 		? "https://zjhcx.github.io"
 		: "https://cx12.pages.dev");
-const base =
-	process.env.SITE_BASE ||
-	process.env.BASE_PATH ||
-	(process.env.GITHUB_ACTIONS === "true" ? "/blog" : "/");
+const base = "/";
 
 // https://astro.build/config
 export default defineConfig({
