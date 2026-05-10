@@ -24,11 +24,7 @@ import { parseDirectiveNode } from "./src/plugins/remark-directive-rehype.js";
 import { remarkExcerpt } from "./src/plugins/remark-excerpt.js";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 
-const site =
-	process.env.SITE ||
-	(process.env.GITHUB_ACTIONS === "true"
-		? "https://zjhcx.github.io"
-		: "https://cx12.pages.dev");
+const site = "https://zjhcx.github.io";
 const base = "/";
 
 // https://astro.build/config
